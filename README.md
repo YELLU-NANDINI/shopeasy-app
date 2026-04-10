@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ ShopEasy - E-commerce Web App
 
-## Getting Started
+## 📌 Project Overview
 
-First, run the development server:
+ShopEasy is a modern e-commerce web application built using Next.js.
+It allows users to browse products, view details, add items to cart, and simulate checkout — all with a smooth UI.
 
-```bash
+---
+
+## 🚀 Features
+
+* 🛒 Product Listing (API based)
+* 🔍 Search Products
+* 📄 Product Details Page
+* 🛍️ Add to Cart
+* ➕➖ Quantity Management
+* ❌ Remove Items
+* 💰 Total Price Calculation
+* 🔐 Login & Signup (Frontend Only)
+* 🧾 Checkout with Address
+* 🔔 Toast Notifications
+* 🧠 State Management using Zustand
+* 🧪 Basic Testing using Jest
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js (App Router)
+* React
+* TypeScript
+* Tailwind CSS
+* Zustand (State Management)
+* React Hot Toast
+* Jest & Testing Library
+
+---
+
+## 📂 Folder Structure
+
+app/
+components/
+store/
+types/
+public/
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repo
+2. Install dependencies
+
+npm install
+
+3. Run the project
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧑‍💻 Author
+YELLU NANDINI
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* This project is built as part of KALNET Full Stack Training
+* Authentication is frontend-only (localStorage based)
+* No backend or database used
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌟 Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Backend integration
+* Payment gateway
+* Order history
+* User authentication (real)
