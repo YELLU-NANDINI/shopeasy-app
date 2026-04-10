@@ -45,8 +45,13 @@ types/
 public/
 
 ---
+## 🌐 Live Demo
 
-## ▶️ How to Run
+https://shopeasy-app-ten.vercel.app/
+
+---
+
+## ▶️ How to Run Locally
 
 1. Clone the repo
 2. Install dependencies
